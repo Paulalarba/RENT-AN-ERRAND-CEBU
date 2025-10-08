@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+body {
+    background-color: #f9f7de;
+    font-family: "Poopins" Semibold;
+}
+.header {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.about_container{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-container {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    padding-bottom: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.my-button1 {
+    padding: 10px 20px;
+    background-color: #420909;
+    color: white;
+    border-color:black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.my-button1:hover {
+    background-color: #f9f7de;
+    color: black;
+}
+.my-button2 {
+    padding: 10px 20px;
+    background-color:#f9f7de ;
+    color: #242424;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.my-button2:hover{
+    background-color: #420909;
+    color: white;
+}
+.how-it-works{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  background-color: #420909;
+  color: #f9f7de;
+  border-radius: 50%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+}
+.icon-circle .material-icons {
+  font-size: 36px;
+}
+.text-section h6 {
+  font-size: 16px;
+  color: #420909;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+.Contracts .form-group {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contacts {
+  background-color:#f9f7de ;
+  padding: 80px 100px;
+  color: #242424;
+}
+
+.contacts form .form-control {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #420909;
+}
+
+.contacts button.btn-primary {
+  background-color: #420909;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contacts button.btn-primary:hover {
+  background-color: #242424;
+}
+
+.contacts h3 {
+  color: #420909;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.contacts-icons {
+  background-color: #f9f7de;
+  border-radius: 12px;
+  padding: 25px 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contacts-icons i {
+  font-size: 38px;
+  color: #420909;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contacts-icons h6 {
+  font-size: 15px;
+  color: #242424;
+}
+
+.contacts-icons:hover {
+  background-color: #420909;
+  transform: scale(1.05);
+}
+
+.contacts-icons:hover i,
+.contacts-icons:hover h6 {
+  color: #f9f7de;
+}
+
+@media (max-width: 768px) {
+  .contacts {
+    padding: 40px 30px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .contacts h3 {
+    margin-top: 40px;
+  }
+
+  .contacts-icons {
+    padding: 20px;
+  }
+
+  .contacts-icons i {
+    font-size: 30px;
   }
 }
+
+/**this lines is for clientsignup**/
