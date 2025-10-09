@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/contacts.css';
+import React, {useRef} from 'react';
+import emailjs from 'emailjs-com';
 
 function Contacts() {
   return (
@@ -9,7 +9,7 @@ function Contacts() {
 
           {/* Left column (form) */}
           <div className="col-md-6">
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="form-group mb-3">
                 <input type="text" className="form-control" placeholder="Name" />
               </div>

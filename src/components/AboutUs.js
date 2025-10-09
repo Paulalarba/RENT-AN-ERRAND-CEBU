@@ -6,7 +6,7 @@ function AboutUS(){
         <div className="container-fluid about_container bg-[#f9f7de]">
           <div className="row align-items-center px-10 py-10">
             <div className="col-md-6 text-section">
-              <h1 style={{ color: "#420909", fontSize: "50px" }}>Get Help. Earn Fast. Live Easy</h1>
+              <h1 style={{ color: "#420909", fontSize: "45px" }}>Get Help. Earn Fast. Live Easy.</h1>
               <p style={{ fontSize: "20px" }}>
                 Rent-an-Errand Cebu is a local online platform that connects busy people who
                 need help with everyday tasks to trusted locals who are ready to earn by

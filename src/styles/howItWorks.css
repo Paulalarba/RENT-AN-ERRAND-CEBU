@@ -1,0 +1,11 @@
+.how-it-works .icon-circle {
+  background-color: #f9f7de;
+  border-radius: 50%;
+  padding: 15px;
+  display: inline-block;
+}
+
+.how-it-works h6 {
+  color: #242424;
+  font-weight: bold;
+}

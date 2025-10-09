@@ -1,0 +1,14 @@
+.contacts {
+  background-color: #f9f7de;
+  padding: 50px 0;
+}
+
+.contacts-icons i {
+  font-size: 2rem;
+  color: #420909;
+}
+
+.contacts-icons h6 {
+  color: #242424;
+  margin-top: 10px;
+}

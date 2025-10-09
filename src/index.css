@@ -1,21 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 
 body {
-  
   background-color: #f9f7de;
   font-family: "Poppins", sans-serif;
 }
-.header {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-}
+
 .about_container{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 20px;
+    padding-right: 0px;
     padding-top: 50px;
 }
 
@@ -24,6 +20,7 @@ body {
     column-gap: 10px;
     justify-content: center;
     padding-bottom: 50px;
+    padding-top: 20px;
 }
 .my-button1 {
     padding: 10px 20px;
