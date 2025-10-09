@@ -1,5 +1,4 @@
 import React, {useRef} from 'react';
-import emailjs from 'emailjs-com';
 
 function Contacts() {
   return (
@@ -9,15 +8,15 @@ function Contacts() {
 
           {/* Left column (form) */}
           <div className="col-md-6">
-            <form onSubmit={handleSubmit}>
+            <form>
               <div className="form-group mb-3">
-                <input type="text" className="form-control" placeholder="Name" />
+                <input type="text" className="form-control" placeholder="Name" required/>
               </div>
               <div className="form-group mb-3">
-                <input type="email" className="form-control" placeholder="Email" />
+                <input type="email" className="form-control" placeholder="Email" required/>
               </div>
               <div className="form-group mb-3">
-                <textarea className="form-control" rows="4" placeholder="Message"></textarea>
+                <textarea className="form-control" rows="4" placeholder="Message" required></textarea>
               </div>
               <div className="form-check mb-3">
                 <input className="form-check-input" type="checkbox" id="gridcheck" />
