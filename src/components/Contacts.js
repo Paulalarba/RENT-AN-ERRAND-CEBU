@@ -3,7 +3,7 @@ import '../styles/contacts.css';
 
 function Contacts() {
   return (
-    <section className="contacts" id="contacts">
+    <section className="contacts" id="contacts px-10 py-10">
       <div className="container">
         <div className="row gy-5">
 

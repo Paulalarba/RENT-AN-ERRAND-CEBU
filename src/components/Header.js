@@ -1,10 +1,9 @@
 import React from "react";
-import '../styles/header.css';
 
 function Header(){
      return (
-      <section className="header_container">
-        <div className="header d-flex justify-content-between align-items-center px-4 py-3 bg-light shadow-sm">
+      <section className="header_container bg-[#f9f7de]">
+        <header className="header d-flex justify-content-between align-items-center px-5 py-3 shadow-sm bg-[#f9f7de]">
           <a
             href="#"
             className="logo text-decoration-none fw-bold fs-5 text-dark"
@@ -12,18 +11,18 @@ function Header(){
             Rent-an-Errand Cebu
           </a>
 
-          <div className="header_right">
-            <a href="#about-us" className="mx-2 text-dark text-decoration-none">
+          <nav className="header_right">
+            <a href="#about-us" className="mx-2 text-red-950 text-decoration-none hover:text-[#420909] transition-colors ">
               About Us
             </a>
-            <a href="#how-it-works" className="mx-2 text-dark text-decoration-none">
+            <a href="#how-it-works" className="mx-2 text-red-950 text-decoration-none hover:text-[#420909] transition-colors">
               How It Works
             </a>
-            <a href="#contacts" className="mx-2 text-dark text-decoration-none">
+            <a href="#contacts" className="mx-2 text-red-950 text-decoration-none hover:text-[#420909] transition-colors">
               Contacts
             </a>
-          </div>
-        </div>
+          </nav>
+        </header>
         </section>
      );
 }

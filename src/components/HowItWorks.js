@@ -1,12 +1,11 @@
 import React from 'react';
-import '../styles/howItWorks.css';
 
 function HowItWorks() {
   return (
-    <section className="how-it-works" id="how-it-works">
-      <div className="container-fluid">
-        <div className="row py-5" style={{ backgroundColor: "white", textAlign: "left" }}>
-          <p className="text-center" style={{ color: "#420909", fontSize: "40px" }}>
+    <section className="how-it-works bg-[#f9f7de]" id="how-it-works">
+      <div className="container-fluid py-10 px-10">
+        <div className="row">
+          <p className="text-center pb-8" style={{ color: "#420909", fontSize: "40px" }}>
             How Rent an Errand Works
           </p>
 

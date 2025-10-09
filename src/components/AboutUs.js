@@ -1,13 +1,12 @@
 import React from "react";
-import '../styles/about.css';
+
 function AboutUS(){
     return(
-            <section className="about-us" id="about-us">
-        <div className="container-fluid about_container">
-          <div className="row align-items-center">
+      <section className="about-us" id="about-us">
+        <div className="container-fluid about_container bg-[#f9f7de]">
+          <div className="row align-items-center px-10 py-10">
             <div className="col-md-6 text-section">
-              <h1 style={{ color: "#420909", fontSize: "80px" }}>Get Help. Earn</h1>
-              <h1 style={{ color: "#420909", fontSize: "80px" }}>Fast. Live Easy</h1>
+              <h1 style={{ color: "#420909", fontSize: "50px" }}>Get Help. Earn Fast. Live Easy</h1>
               <p style={{ fontSize: "20px" }}>
                 Rent-an-Errand Cebu is a local online platform that connects busy people who
                 need help with everyday tasks to trusted locals who are ready to earn by
@@ -21,6 +20,9 @@ function AboutUS(){
                 <button
                   type="button"
                   className="my-button1"
+                  style={{
+                    border: "2px solid #420909"
+                  }}
                   onClick={() => (window.location.href = '/clientSignUp.html')}
                 >
                   POST A JOB
@@ -28,6 +30,9 @@ function AboutUS(){
                 <button
                   type="button"
                   className="my-button2"
+                    style={{
+                    border: "2px solid #420909"
+                  }}
                   onClick={() => (window.location.href = '/UserSignUp.html')}
                 >
                   FIND WORKS
@@ -39,7 +44,7 @@ function AboutUS(){
               <img
                 src="/images/bg.png"
                 className="img-fluid"
-                style={{ maxWidth: "150px" }}
+                style={{ width: "100%", height: "auto", maxWidth: "600px" }}
                 alt="logo"
               />
             </div>
