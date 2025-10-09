@@ -1,6 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
-    background-color: #f9f7de;
-    font-family: "Poopins" Semibold;
+  
+  background-color: #f9f7de;
+  font-family: "Poppins", sans-serif;
 }
 .header {
     padding-left: 100px;

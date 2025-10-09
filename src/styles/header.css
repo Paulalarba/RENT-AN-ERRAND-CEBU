@@ -1,0 +1,9 @@
+body {
+    background-color: #f9f7de;
+    font-family: "Poopins" Semibold;
+}
+.header {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
