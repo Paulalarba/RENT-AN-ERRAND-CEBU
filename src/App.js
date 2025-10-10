@@ -1,19 +1,19 @@
 import React from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './index.css';
-import HowItWorks from './components/HowItWorks';
-import Contacts from './components/Contacts';
-import Header from './components/Header';
-import AboutUS from './components/AboutUs';
+import HomePage from './components/HomePage';
+import Login from './components/Login';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <AboutUS />
-      <HowItWorks />
-      <Contacts />
-    </div>
-
+      <div className='App'>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/Login" element={<Login />} />
+        </Routes>
+      </div>
   );
 }
 
